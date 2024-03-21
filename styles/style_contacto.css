@@ -1,0 +1,136 @@
+body{
+    background-image: url(/img/shop.jpg);
+    margin: 0 0 0 0;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+#icon{
+    width: 80px;
+}
+
+#style_title{
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+nav{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+main{
+    width: 940px;
+    margin: 0 auto;
+}
+
+form{
+    margin: 40px 0;
+}
+
+form label, form p{
+    display: block;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 0 5px;
+}
+
+.input_padron{
+    display: block;
+    border-color: #ffffff;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.background_div{
+    background-color: rgba(000, 000, 000, 0.5);
+    padding: 0;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.style_subtitles{    
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.parrafos_left{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: left;
+    font-size: 20px;
+}
+
+.listas_centradas{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+}
+
+.checkbox{
+    margin: 20px 0;
+}
+
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    background: black;
+    border-color: #ffffff;
+    border-style: groove;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.enviar:hover{
+    background: grey;
+    transform: scale(1.2);
+}
+
+.style_tables{
+    color: #ffffff;
+    margin: 40px 40px;
+}
+
+thead{
+    background: #000000;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #ffffff;
+    background: #000000;
+    padding: 8px 15px;
+}

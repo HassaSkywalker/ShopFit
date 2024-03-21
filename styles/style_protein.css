@@ -1,0 +1,59 @@
+body{
+    background-image: url(/img/shop.jpg);
+    margin: 0 0 0 0;
+}
+
+#icon{
+    width: 80px;
+}
+
+#style_title{
+    color: #ffffff;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+nav{
+    position: absolute;
+    top: 0px;
+    right: 25px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 50px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.background_div{
+    background-color: rgba(000, 000, 000, 0.5);
+    padding: 0;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.style_subtitles{    
+    color: #ffffff;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+p{
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+}
+
+.listas_centradas{
+    color: #ffffff;
+    display: grid;
+    place-items: center;
+}

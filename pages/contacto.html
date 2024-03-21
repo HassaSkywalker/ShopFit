@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="/img/icono.jpg">
+        <title>Contacto</title>
+        <link rel="stylesheet" href="/styles/style_contacto.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="icon" src="/img/icono.jpg" alt="logotipo">
+            <h1 id="style_title">ShopFit</h1>
+
+            <nav>
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/pages/protein.html">Proteinas</a></li>
+                    <li><a href="/pages/pre-workout.html">Pre-Workout</a></li>
+                    <li><a href="/pages/recover.html">Recuperadores</a></li>
+                    <li><a href="/pages/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="">
+                <label for="nombreyApellido">Nombre Y Apellido:</label>
+                <input type="text" id="nombreyApellido" class="input_padron" required>
+
+                <label for="correoElectronico">Correo Electronico:</label>
+                <input type="email" id="correoElectronico" class="input_padron" required placeholder="email@dominio.com">
+
+                <label for="telefono">Telefono:</label>
+                <input type="tel" id="telefono" class="input_padron" required placeholder="(XX) XXXX XXXX">
+
+                <label for="mensaje">Mensaje</label>
+                <textarea cols="68" rows="10" id="mensaje" class="input_padron" required></textarea>
+
+                <fieldset>
+                    <legend class="parrafos_left">¿Como le gustaria que lo contactemos?</legend>
+
+                    <label for="radio_email"><input type="radio" name="contacto" value="email" id="radio_email">Email</label>
+
+                    <label for="radio_telefono"><input type="radio" name="contacto" value="telefono" id="radio_telefono">Telefono</label>
+
+                    <label for="radio_whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio_whatsapp" checked>WhatsApp</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend class="parrafos_left">¿En que horario desea ser atendido?</legend>
+                    <select>
+                        <option>Mañana</option>
+                        <option>Tarde</option>
+                        <option>Noche</option>
+                    </select>
+                </fieldset>
+
+                <label class="checkbox" for=""><input type="checkbox" checked>¿Le gustaria recibir novedades de ShopFit?</label>
+
+                <input type="submit" value="Enviar Formulario" class="enviar">
+            </form>
+            
+            <table class="style_tables">
+                <thead>
+                    <tr>
+                        <th>Dia</th>
+                        <th>Horario</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>Lunes</td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Martes</td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Miercoles</td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Jueves</td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Viernes</td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Sabado</td>
+                        <td>9:00 AM - 6:00 PM</td>
+                    </tr>
+                    <tr>
+                        <td>Domingo</td>
+                        <td>10:00 AM - 4:00 PM</td>
+                    </tr>
+                </tbody>
+            </table>
+        </main>
+        <footer>
+            <div class="background_div">
+
+                <h2 class="style_subtitles">Sobre ShopFit</h2>
+    
+                <p>Ubicada en el centro de Ocosingo, la tienda de suplementos deportivos <strong>ShopFit</strong> trae para el mercado los mejores productos en el mercado.</p>
+    
+                <p>Nuestra misión es: <strong>"Proporcionar los mejores suplementos de calidad a nuestros clientes"</strong>.</p>
+    
+                <p>Ofrecemos productos de primera calidad que estan actualmente en el mercado y en el mundo del fitness, para así ofrecer a nuestros clientes los suplementos mas novedosos.
+                </p>
+    
+            </div>
+    
+            <div class="background_div">
+    
+                <h2 class="style_subtitles">Diferenciales</h2>
+                <ul class="listas_centradas">
+                    <li>Marcas Reconocidas</li>
+                    <li>La Mejor Calidad De Suplementos</li>
+                    <li>Los Mejores Precios</li>
+                </ul>
+    
+            </div>
+        </footer>
+    </body>
+</html>
